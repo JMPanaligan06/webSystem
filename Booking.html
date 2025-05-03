@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking</title>
     <link rel="Stylesheet" href="Booking.css">
+    <link rel="icon" href="path/to/your/favicon.ico">
+
+
 </head>
 <body>
     <h1>Wedding Booking Form</h1>
 
-    <div class ="BookingfrmBox">
+    <form id="weddingForm">
+      <div class ="BookingfrmBox">
         <div class ="txtBox1">
             <div class="input">
                 <label for="Groomfname">Groom's First Name</label>
@@ -136,8 +140,13 @@
 </div>
 
 <div class="submitButton">
-    <button class="submit" id="submit">Submit</button>
+    <button type="submit" class="submit" id="submit">Submit</button>
 </div>
+    </form>
+
+    
+    <!-- Your Firebase app script -->
+    <script type="module" src="Booking.js"></script>
 
 </body>
 </html>
